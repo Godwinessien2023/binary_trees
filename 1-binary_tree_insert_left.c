@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * binary_tree_insert_left - To insert a node as the left-child of another node
- * @parent: A pointer to the root
+ * binary_tree_insert_left - Insert a node as the left-child of another node
+ * @parent: *Ptr to the root
  * @value: The root data
- * Return: A pointer to the new node, or NULL on failure
+ * Return: *Ptr to new node, or NULL on failure
  */
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
