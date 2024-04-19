@@ -3,13 +3,15 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_inorder - To iterate through a binary tree using in-order traversal
+ * binary_tree_inorder - To iterate through a 
+ * binary tree using in-order traversal
  * @tree: *Ptr to root node of the tree to traverse
  * @func: *Ptr to a function to call for each node
  * Return: void
  */
 
-void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
+void binary_tree_inorder(const binary_tree_t *tree, 
+void (*func)(int))
 {
 	if (tree == NULL || func == NULL)
 		return;
