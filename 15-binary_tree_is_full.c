@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * is_full_recursive - Function that 
+ * is_full_recursive - Function that
  * checks if a binary tree is full
  * @tree: *Ptr to the root node of the tree to check
  * Return: 1 if true
