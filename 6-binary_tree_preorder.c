@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <stdlib.h>
 
-/**
- * binary_tree_preorder - To interate through a 
+/* binary_tree_preorder - To interate through a
  * binary tree using pre-order traversal
  * @tree: *Ptr to root node of the tree to traverse
  * @func: *Ptr to function to call for each node
